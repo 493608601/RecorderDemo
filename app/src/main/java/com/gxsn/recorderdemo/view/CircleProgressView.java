@@ -46,7 +46,7 @@ public class CircleProgressView extends View {
 
     private int mProgress = 0;
 
-    private final int mCircleLineStrokeWidth = 22;
+    private final int mCircleLineStrokeWidth = 25;
 
 
     private final Paint mPaint;

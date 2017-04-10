@@ -27,8 +27,9 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="35dp"
         android:background="@drawable/bg_circle_back"
-        android:visibility="gone"
-        android:src="@drawable/back" />
+        android:padding="10dp"
+        android:src="@drawable/back"
+        android:visibility="gone" />
 
     <ImageView
         android:id="@+id/iv_compltet"
@@ -37,17 +38,18 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="35dp"
-        android:visibility="gone"
         android:background="@drawable/bg_circle_ok"
-        android:src="@drawable/go" />
+        android:padding="10dp"
+        android:src="@drawable/go"
+        android:visibility="gone" />
 
     <ImageView
         android:id="@+id/iv_finish"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="35dp"
         android:layout_marginBottom="35dp"
+        android:layout_marginStart="35dp"
         android:src="@drawable/finish" />
 
 </RelativeLayout>
